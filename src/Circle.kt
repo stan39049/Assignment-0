@@ -1,4 +1,4 @@
-class Circle(_name: String) : Shape(_name) {
+class Circle() : Shape("Circle") {
     private var radius: Int = 0
 
     override fun printDimensions() {

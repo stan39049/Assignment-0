@@ -1,4 +1,4 @@
-class Square(_name: String) : Shape(_name) {
+class Square() : Shape("Square") {
     private var length: Int = 0
     private var height: Int = 0
 
