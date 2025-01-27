@@ -9,7 +9,7 @@ class Circle(_name: String) : Shape(_name) {
         return Math.PI * radius * radius
     }
 
-    fun setDimensions(rad: Int){
-        radius = rad
+    fun setDimensions(_radius: Int){
+        radius = _radius
     }
 }
